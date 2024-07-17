@@ -9,7 +9,6 @@
    - [Pix2Pix for Satellite to Map Transformation](#pix2pix-for-satellite-to-map-transformation)
    - [Old Photo Restoration using GFP-GAN](#old-photo-restoration-using-gfp-gan)
    - [Image Inpainting with BoundLess](#image-inpainting-with-boundless)
-   - [Image Caption Generator](#image-caption-generator)
 5. [Demo](#demo)
 6. [Contributing](#contributing)
 7. [License](#license)
@@ -25,7 +24,6 @@ This project explores various applications of Generative Adversarial Networks (G
 - Transform satellite images into map images using Pix2Pix
 - Restore old photos using GFP-GAN
 - Predict missing parts of images using BoundLess
-- Generate captions for images using CNN and LSTM
 
 ## Technologies Used
 
@@ -85,21 +83,6 @@ How it works:
 
 This implementation allows for the realistic completion of images with missing or damaged portions.
 
-### Image Caption Generator
-
-This component uses a CNN-LSTM architecture to generate descriptive captions for images.
-
-How it works:
-1. A pre-trained CNN  (VGG) extracts features from the input image.
-2. These features are fed into an LSTM network, which generates a sequence of words.
-3. The model is trained on a dataset of images paired with their captions.
-4. During inference, it can generate natural language descriptions of new images.
-
-This implementation bridges computer vision and natural language processing, enabling automatic description of visual content.
-
-## Demo
-
-A demo video showcasing the capabilities of this project is available [here](https://drive.google.com/drive/folders/1-ENucFn7FZIuYRgJYoygiwbuJRULnjxJ?usp=drive_link).
 
 ## PPT
 
